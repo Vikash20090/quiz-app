@@ -75,3 +75,18 @@ button:hover {
 #result-container button {
   margin-top: 25px;
 }
+
+.sidebar {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 1.2em;
+  font-weight: 600;
+  background-color: rgba(0,0,0,0.4);
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  user-select: none;
+  color: white;
+  z-index: 1000;
+}
